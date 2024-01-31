@@ -4,8 +4,8 @@ import Link from "next/link";
 function CardExploreNow() {
   return (
     <Link href="">
-      <div className="w-60">
-        <div className="bg-slate-700 w-60 h-80 rounded-xl">
+      <div className="w-[300px] h-[400px] mb-20">
+        <div className="bg-slate-700 h-full rounded-xl">
           <img src="" alt="" className="w-full h-full"/>
         </div>
 

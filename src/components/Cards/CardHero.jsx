@@ -4,7 +4,7 @@ import React from "react";
 function CardHero() {
   return (
     <section>
-      <div className="px-28 flex justify-center  m-auto w-full">
+      <div className="flex justify-center  m-auto w-full min-w-[80%] px-28">
         <div className="bg-[url('/assets/images/hero1.png')] bg-cover w-1/2 flex flex-col  justify-center px-20">
           <h4 className="text-4xl text-white  font-bold my-4">
             WE MADE YOUR EVERYDAY FASHION BETTER!
