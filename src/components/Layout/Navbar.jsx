@@ -5,9 +5,9 @@ import Image from "next/image";
 function Navbar() {
   return (
     <header className="flex items-center w-full text-black bg-slate-100 h-16 px-48">
-      <nav className="flex gap-5 items-center justify-between w-full">
+      <nav className="flex items-center justify-between w-full">
         <Image src="" width={20} height={20} alt="logo" />
-        <div>
+        <div className="flex gap-8">
             <Link href="">Shop</Link>
             <Link href="">Men</Link>
             <Link href="">Woman</Link>
@@ -15,7 +15,7 @@ function Navbar() {
             <Link href="">Joggers</Link>
         </div>
         <input type="text" />
-        <div className="flex gap-2">
+        <div className="flex gap-3">
           {/* agregar condicional si esta logueado o no */}
           <Link href="">Icon</Link>
           <Link href="">Icon</Link>
