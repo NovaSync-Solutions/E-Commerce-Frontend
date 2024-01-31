@@ -4,6 +4,7 @@ import CardHero from "@/components/Cards/CardHero";
 import SliderMain from "@/components/Sliders/SliderMain";
 import ExploreNow from "@/components/Sections/ExploreNow";
 import Footer from "@/components/Layout/Footer";
+import Oferts from "@/components/Sections/Oferts";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <SliderNewArrival></SliderNewArrival>
       <CardHero />
       <ExploreNow />
+      <Oferts />
 
       <Footer />
     </>
