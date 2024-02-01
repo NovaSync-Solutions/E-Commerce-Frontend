@@ -5,7 +5,7 @@ import SliderMain from "@/components/Sliders/SliderMain";
 import ExploreNow from "@/components/Sections/ExploreNow";
 import Footer from "@/components/Layout/Footer";
 import Oferts from "@/components/Sections/Oferts";
-
+import Feedback from "@/components/Sections/Feedback";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <CardHero />
       <ExploreNow />
       <Oferts />
-
+      <Feedback />
       <Footer />
     </>
   );
