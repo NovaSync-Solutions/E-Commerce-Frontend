@@ -11,14 +11,39 @@ function Footer() {
             className="flex justify-center space-x-3 lg:justify-start"
           >
             <div className="flex items-center justify-center w-60 h-12">
-              <img className="w-full" src="assets/images/logo1.png" alt="" />
+              <img className="w-full" src="" alt="" />
             </div>
           </a>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-50">Product</h3>
-            <ul className="space-y-1">
+            <h3 className="text-lg uppercase dark:text-gray-50">Product</h3>
+            <ul className="space-y-1 text-base">
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  Integrations
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-3 ">
+            <h3 className=" uppercase text-lg dark:text-gray-50">Terms</h3>
+            <ul className="space-y-1 text-base">
               <li>
                 <a rel="noopener noreferrer" href="#">
                   Features
@@ -42,8 +67,10 @@ function Footer() {
             </ul>
           </div>
           <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-50">Company</h3>
-            <ul className="space-y-1">
+            <h3 className="tracki uppercase text-lg dark:text-gray-50">
+              Company
+            </h3>
+            <ul className="space-y-1 text-base">
               <li>
                 <a rel="noopener noreferrer" href="#">
                   Privacy
@@ -56,28 +83,11 @@ function Footer() {
               </li>
             </ul>
           </div>
+
           <div className="space-y-3">
-            <h3 className="uppercase dark:text-gray-50">Developers</h3>
-            <ul className="space-y-1">
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Public API
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">
-                  Guides
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="space-y-3">
-            <div className="uppercase dark:text-gray-50">Social media</div>
+            <div className="uppercase text-lg dark:text-gray-50">
+              Social media
+            </div>
             <div className="flex justify-start space-x-3">
               <a
                 rel="noopener noreferrer"
