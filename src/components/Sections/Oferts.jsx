@@ -2,8 +2,8 @@ import React from "react";
 
 function Ofertas() {
   return (
-    <section className="bg-zinc-50 my-20 border-black w-full pb-8">
-      <div className="text-center py-10">
+    <section className="bg-zinc-50 my-36 border-black w-full py-10">
+      <div className="text-center pb-10 pt-6">
         <h5 className="text-4xl text-black font-extrabold">
           Ofertas de las Mejores Marcas
         </h5>

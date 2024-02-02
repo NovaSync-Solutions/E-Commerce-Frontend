@@ -2,8 +2,8 @@ import React from "react";
 
 function Feedback() {
   return (
-    <section className="">
-      <div className="container flex flex-col  mx-auto mb-12 md:p-10 md:px-12">
+    <section className="w-[90%] m-auto">
+      <div className="container flex flex-col mb-3">
         <div className="flex mb-6 justify-center md:justify-start">
           <div className="rounded w-2 h-12 bg-purple-600 "></div>
           <h2 className="text-3xl ml-3 font-bold">Feedback</h2>

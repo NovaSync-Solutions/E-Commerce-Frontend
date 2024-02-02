@@ -2,10 +2,11 @@ import Navbar from "@/components/Layout/Navbar";
 import SliderNewArrival from "@/components/Sliders/SliderNewArrival";
 import CardHero from "@/components/Cards/CardHero";
 import SliderMain from "@/components/Sliders/SliderMain";
-import ExploreNow from "@/components/Sections/ExploreNow";
+import CategoriesForMen from "@/components/Sections/CategoriesForMen";
 import Footer from "@/components/Layout/Footer";
 import Oferts from "@/components/Sections/Oferts";
 import Feedback from "@/components/Sections/Feedback";
+import CategoriesForWomen from "@/components/Sections/CategoriesForWomen";
 
 export default function Home() {
   return (
@@ -14,9 +15,11 @@ export default function Home() {
       <SliderMain />
       <SliderNewArrival></SliderNewArrival>
       <CardHero />
-      <ExploreNow />
+      <CategoriesForMen />
       <Oferts />
+      <CategoriesForWomen />
       <Feedback />
+      
       <Footer />
     </>
   );
